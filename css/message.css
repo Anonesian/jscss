@@ -1,0 +1,50 @@
+.message-inner{display:flex}.message-inner+.message-inner{border-top:1px solid var(--anonesian-topBorder-main)}.avatar{display:inline-flex;justify-content:center;align-items:center;border-radius:50%;vertical-align:top;overflow:hidden}.message-cell{display:block;vertical-align:top;padding:10px}.block--messages .block-container{background:none;border:none}.block--messages .message,.block--messages .block-row{color:hsl(var(--anonesian-textColor));background:var(--anonesian-main-Bg);border-width:1px;border-style:solid;border-top-color:var(--anonesian-topBorder-main);border-right-color:var(--anonesian-rightBorder-main);border-bottom-color:var(--anonesian-bottomBorder-main);border-left-color:var(--anonesian-leftBorder-main);border-radius:4px}.block--messages .message+.message,.block--messages .block-row+.message,.block--messages .message+.block-row,.block--messages .block-row+.block-row{margin-top:6px}.block--messages .message-spacer+.message,.block--messages .message-spacer+.block-row{margin-top:6px}.block--messages .message-inner .message-cell{border-radius:0}.block--messages .message-inner:first-of-type .message-cell:first-child{border-top-left-radius:3px}.block--messages .message-inner:first-of-type .message-cell:last-child{border-top-right-radius:3px}.block--messages .message-inner:last-of-type .message-cell:first-child{border-bottom-left-radius:3px}.block--messages .message-inner:last-of-type .message-cell:last-child{border-bottom-right-radius:3px}@media (max-width:650px){.block--messages .message-inner .message-cell{border-radius:0}.block--messages .message-inner:first-of-type .message-cell:first-child{border-top-left-radius:3px;border-top-right-radius:3px}.block--messages .message-inner:last-of-type .message-cell:last-child{border-bottom-left-radius:3px;border-bottom-right-radius:3px}.block--messages .message--simple .message-cell--user+.message-cell{border-radius:0;border-top-left-radius:3px;border-top-right-radius:3px}}@media (max-width:650px){.block--messages .message,.block--messages .block-row,.block--messages .block-filterBar{border-left:none;border-right:none;border-radius:0}.block--messages .message .message-inner .message-cell{border-radius:0}.block--messages .message .message-inner .message-cell:first-child,.block--messages .message .message-inner .message-cell:last-child{border-radius:0}.block--messages .message--simple .message-cell--user+.message-cell{border-radius:0}}.message--articlePreview{display:flex;flex-direction:column;min-width:0;margin-bottom:10px;overflow:hidden}.message--articlePreview:last-child{margin-bottom:0}.message--articlePreview .articlePreview-main{display:flex;flex-direction:column;flex:1 1 auto}.message--articlePreview .articlePreview-image{flex:0 0 auto;width:100%;max-width:750px;text-decoration:none}.message--articlePreview .articlePreview-image>img{display:block;width:100%;aspect-ratio:16 / 9;object-fit:cover}.message--articlePreview .articlePreview-image+.articlePreview-text .bbImageWrapper,.message--articlePreview .articlePreview-image+.articlePreview-text .bbImage{display:none}.message--articlePreview .articlePreview-text{flex:1 1 auto;display:flex;min-width:0;flex-direction:column;padding:10px}.message--articlePreview .articlePreview-text .bbWrapper{position:relative;max-height:11.2em;overflow:hidden}.message--articlePreview .articlePreview-text .bbWrapper:after{content:'';position:absolute;bottom:0;right:0;text-align:right;width:75%;height:1.4em;background: linear-gradient(to right, var(--anonesian-colorTransparent), var(--anonesian-main-Bg));}.message--articlePreview .articlePreview-title{margin:0;font-size:17px}.message--articlePreview .articlePreview-content{flex:1 1 auto}.message--articlePreview .articlePreview-links{text-align:right;padding-top:6px}.message--articlePreview .articlePreview-statuses{float:left;display:flex;list-style:none;margin:0;padding:0}.articlePreview-label{float:left;display:flex;list-style:none;margin:0;padding:0}.message--articlePreview .articlePreview-statuses>li{margin-right:8px}.message--articlePreview .articlePreview-label>li{margin-right:4px}.message--articlePreview .articlePreview-statuses .message-newIndicator{font-size:13px}.message--articlePreview .articlePreview-footer{padding:0 10px}.message--articlePreview .articlePreview-meta{display:flex;align-items:center;border-top:solid 1px var(--anonesian-topBorder-main);margin:0;padding:6px 0;color:var(--anonesian-textColorMuted);font-size:13px}.message--articlePreview .articlePreview-meta>li{list-style:none;margin-right:10px}.message--articlePreview .articlePreview-meta>li:last-child{margin-right:0}.message--articlePreview .articlePreview-replies{white-space:nowrap}.message--articlePreview .articlePreview-by,.message--articlePreview .articlePreview-repliesLabel{display:none}.block--articles.block--messages.block--expanded .article-title{margin:0 0 5px;font-size:24px;font-weight:400}.block--articles.block--messages.block--expanded .message-snippet-link{margin-top:.5em;text-align:center}.message.message--articlePreview .avatar{width:24px;height:24px;display:inline-flex;justify-content:center;align-items:center;border-radius:50%;vertical-align:top;overflow:hidden}.block--articles.block--messages.block--expanded .message+.message{margin-top:15px}.u-spaceAfter{margin-right:.28em}.message-body{margin:10px 0;font-family:'Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif}.message-body:before,.message-body:after{content:" ";display:table}.message-body:after{clear:both}.message-body{margin-top:6px;margin-bottom:6px}.message-body:last-child{margin-bottom:0}.message-main{height:100%;display:flex;flex-direction:column}.message-content{position:relative}.message-content{flex:1 1 auto;min-height:1px}.message-column{display:flex;flex-direction:column;align-items:center}.message-attribution{color:var(--anonesian-textColorMuted);font-size:12px;padding-bottom:3px;border-bottom:1px solid var(--anonesian-topBorder-main)}.message-attribution:before,.message-attribution:after{content:" ";display:table}.message-attribution:after{clear:both}.message-attribution.message-attribution--plain{border-bottom:none;font-size:inherit;padding-bottom:0}.message-attribution.message-attribution--split{display:flex;align-items:flex-end;flex-wrap:wrap}.message-attribution.message-attribution--split .message-attribution-opposite{margin-left:auto}.message-attribution-main{float:left}.message-attribution-opposite{float:right}.message-attribution-opposite.message-attribution-opposite--list{display:flex;list-style:none;margin:0;padding:0}.message-attribution-opposite.message-attribution-opposite--list>li{margin-left:14px}.message-attribution-opposite.message-attribution-opposite--list>li:first-child{margin-left:0}.message-attribution-opposite a{color:inherit}.message-attribution-opposite a:hover{text-decoration:none;color:var(--anonesian--hover-a)}.message-attribution-gadget{display:inline-block;margin:-3px -7px;padding:3px 7px}
+.separator img{display:block;
+width:100%;
+aspect-ratio:16 / 9;
+object-fit:cover;
+}
+@supports (display: grid){
+  @media (min-width:900px) {
+  .block.block--articles.block--messages.block--previews>.block-container .block-body>.widget.Blog {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 10px;
+    }
+    .message--articlePreview:nth-of-type(1)
+    .articlePreview-main {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+    }
+    .message--articlePreview:nth-of-type(1)
+    .articlePreview-main img {
+      display:block;
+      width:100%;
+      aspect-ratio:4 / 3;
+      object-fit:cover;
+      border-radius:0;
+      border-top-left-radius: 3px;
+    }
+    .message--articlePreview:nth-of-type(1) {
+      grid-column: 1/13;
+    }
+    .message--articlePreview:nth-of-type(2),
+    .message--articlePreview:nth-of-type(3),
+    .message--articlePreview:nth-of-type(4),
+    .message--articlePreview:nth-of-type(5){
+      grid-column: span 6;
+    }
+    .message--articlePreview:nth-of-type(n+6){
+      grid-column: span 4;
+    }
+    .message--articlePreview {
+      margin:0 auto;
+      padding:0 auto;
+    }
+  .message--articlePreview .articlePreview-main img {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+  }
+}
